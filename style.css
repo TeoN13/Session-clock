@@ -1,0 +1,82 @@
+main{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5C6BC0;
+  font-family: 'Andika', sans-serif;
+  font-size: 30px;
+  color: #E0E0E0;
+}
+#beep{
+  display: none;
+}
+#clock{
+  background-color: #303F9F;
+  padding: 20px;
+  border-radius: 30%;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Title from the 1st div in react div */
+#title{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline dotted 4px;
+  text-decoration-skip: spaces;
+}
+
+/* Main div with the length controls */
+#controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+
+/* Div with the buttons */
+#break-control, #session-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#break-decrement, #break-increment, #session-decrement, #session-increment, #start_stop, #reset{
+  background-color: transparent;
+  border: none;
+}
+.control{
+  width: 32px;
+  height: 32px;
+  fill: #E0E0E0;
+}
+#session-label, #break-label{
+  text-align: center;
+}
+/* Display div */
+#display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 3px dotted #F48FB1;
+  border-radius: 50%;
+  margin: 5px;
+  padding-top: 5px;
+  paddinf-bottom: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#display-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
